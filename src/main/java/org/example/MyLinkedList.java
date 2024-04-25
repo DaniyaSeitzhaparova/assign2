@@ -1,6 +1,6 @@
 package org.example;
 
-public class MyLinkedList {
+public class MyLinkedList<T> implements MyList<T> {
     private class MyNode {
         T data;
         MyNode next;
@@ -11,4 +11,8 @@ public class MyLinkedList {
             this.next = null;
             this.prev = null;
         }
-}
+
+        private MyNode head;
+        private MyNode tail;
+        private int size;
+    }
