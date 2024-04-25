@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="MyList added">
+    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="Defining a private instance variable of type Object[] to hold the elements of the list">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,6 +49,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714009089292</updated>
-      <workItem from="1714009090355" duration="1321000" />
+      <workItem from="1714009090355" duration="2335000" />
     </task>
     <task id="LOCAL-00001" summary="MyList added">
       <option name="closed" value="true" />
@@ -65,7 +72,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714011155611</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MyList implemented">
+      <option name="closed" value="true" />
+      <created>1714011310778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714011310778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,7 +88,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MyList added" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyList added" />
+    <MESSAGE value="MyList implemented" />
+    <MESSAGE value="Defining a private instance variable of type Object[] to hold the elements of the list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defining a private instance variable of type Object[] to hold the elements of the list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
