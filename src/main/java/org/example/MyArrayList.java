@@ -69,27 +69,6 @@ public abstract class MyArrayList<T> implements MyList<T> {
             return (Iterator<T>) new MyArrayListIterator<T>(this);
         }
 
-        private static class MyArrayListIterator<T> {
-            private MyArrayList<T> list;
-            private int currentIndex;
 
-            public MyArrayListIterator(MyArrayList<T> list) {
-                this.list = list;
-                this.currentIndex = 0;
-            }
-
-            @Override
-            public boolean hasNext() {
-                return currentIndex < list.size();
-            }
-
-            @Override
-            public T next() {
-                if (!hasNext()) {
-                    throw new RuntimeException("No such element");
-                }
-                return list.get(currentIndex++);
-            }
-        }
     }
 
