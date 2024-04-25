@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="Defining a private instance variable of type Object[] to hold the elements of the list">
+    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="Define MyArrayListIterator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714009089292</updated>
-      <workItem from="1714009090355" duration="2335000" />
+      <workItem from="1714009090355" duration="3437000" />
     </task>
     <task id="LOCAL-00001" summary="MyList added">
       <option name="closed" value="true" />
@@ -80,7 +79,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714011310778</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementation of all methods">
+      <option name="closed" value="true" />
+      <created>1714012471859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714012471859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add iterator">
+      <option name="closed" value="true" />
+      <created>1714012547268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714012547268</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Define MyArrayListIterator">
+      <option name="closed" value="true" />
+      <created>1714012583529</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714012583529</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +113,10 @@
     <MESSAGE value="MyList added" />
     <MESSAGE value="MyList implemented" />
     <MESSAGE value="Defining a private instance variable of type Object[] to hold the elements of the list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining a private instance variable of type Object[] to hold the elements of the list" />
+    <MESSAGE value="Implementation of all methods" />
+    <MESSAGE value="Add iterator" />
+    <MESSAGE value="Define MyArrayListIterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Define MyArrayListIterator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
