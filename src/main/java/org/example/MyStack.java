@@ -13,7 +13,7 @@ public class MyStack<T extends Comparable<T>>  {
 
         public T pop() {
             if (isEmpty()) {
-                throw new RuntimeException("Stack is empty");
+                throw new RuntimeException("Empty");
             }
             int lastIndex = list.size() - 1;
             T element = list.get(lastIndex);
@@ -23,7 +23,7 @@ public class MyStack<T extends Comparable<T>>  {
 
         public T peek() {
             if (isEmpty()) {
-                throw new RuntimeException("Stack is empty");
+                throw new RuntimeException("Empty");
             }
             return list.get(list.size() - 1);
         }
