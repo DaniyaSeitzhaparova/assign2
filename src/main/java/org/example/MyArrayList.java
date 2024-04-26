@@ -30,18 +30,18 @@ public abstract class MyArrayList<T> implements MyList<T> {
     @Override
     public void remove(int index) {
         if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Index out of bounds: " + index);
+            throw new IndexOutOfBoundsException(index);
         }
         for (int i = index; i < size - 1; i++) {
             elements[i] = elements[i + 1];
         }
-        elements[--size] = null; // Optional: Set the last element to null to aid garbage collection
+        elements[--size] = null;
     }
 
     @Override
     public T get(int index) {
         if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException("Index out of bounds: " + index);
+            throw new IndexOutOfBoundsException(index);
         }
         return (T) elements[index];
     }
@@ -69,7 +69,6 @@ public abstract class MyArrayList<T> implements MyList<T> {
         return (Iterator<T>) new MyArrayListIterator<>(this);
     }
 
-    // Define a custom iterator for MyArrayList
     private static class MyArrayListIterator<T> implements Iterator<T> {
         private MyArrayList<T> list;
         private int currentIndex;

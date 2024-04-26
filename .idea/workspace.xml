@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="Mylist interface changed">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" afterDir="false" />
+    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="Sorting method added to MyArrayList">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714009089292</updated>
       <workItem from="1714009090355" duration="4319000" />
-      <workItem from="1714099125765" duration="1491000" />
+      <workItem from="1714099125765" duration="1807000" />
     </task>
     <task id="LOCAL-00001" summary="MyList added">
       <option name="closed" value="true" />
@@ -150,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714100826634</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sorting method added to MyArrayList">
+      <option name="closed" value="true" />
+      <created>1714101012990</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714101012990</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +177,8 @@
     <MESSAGE value="Define head and tail" />
     <MESSAGE value="Implemented methods of MyLinkedList" />
     <MESSAGE value="Mylist interface changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mylist interface changed" />
+    <MESSAGE value="Sorting method added to MyArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting method added to MyArrayList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -98,7 +98,54 @@ public class MyLinkedList<T> implements MyList<T> {
 
     @Override
     public Iterator<T> iterator() {
-        return null;
+        return new MyLinkedListIterator<>(this);
     }
 
+    private class MyLinkedListIterator<T> implements Iterator<T> {
+        private MyLinkedList<T> list;
+        private MyLinkedList<T>.MyNode current;
+
+        public MyLinkedListIterator(MyLinkedList<T> list) {
+            this.list = list;
+            this.current = list.head;
+        }
+
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        @Override
+        public T next() {
+            if (!hasNext()) {
+                throw new RuntimeException("No such element");
+            }
+            T data = current.data;
+            current = current.next;
+            return data;
+        }
+    }
+
+    @Override
+    public void sort() {
+        if (head == null || head.next == null) {
+            return;
+        }
+        boolean swapped;
+        do {
+            swapped = false;
+            MyNode current = head;
+            MyNode next = head.next;
+            while (next != null) {
+                if (current.data.compareTo(next.data) > 0) {
+                    T temp = current.data;
+                    current.data = next.data;
+                    next.data = temp;
+                    swapped = true;
+                }
+                current = next;
+                next = next.next;
+            }
+        } while (swapped);
+    }
 }
