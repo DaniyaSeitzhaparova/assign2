@@ -3,7 +3,7 @@ package org.example;
 import java.util.Iterator;
 
 
-public abstract class MyArrayList<T> implements MyList<T> {
+public class MyArrayList<T> implements MyList<T> {
     private static final int capacity = 10;
     private Object[] elements;
     private int size;
