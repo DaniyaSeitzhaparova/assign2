@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="Define head and tail">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyLinkedList.java" afterDir="false" />
+    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="Mylist interface changed">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714009089292</updated>
       <workItem from="1714009090355" duration="4319000" />
-      <workItem from="1714099125765" duration="999000" />
+      <workItem from="1714099125765" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="MyList added">
       <option name="closed" value="true" />
@@ -135,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714019157080</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented methods of MyLinkedList">
+      <option name="closed" value="true" />
+      <created>1714100550806</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714100550806</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Mylist interface changed">
+      <option name="closed" value="true" />
+      <created>1714100826634</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714100826634</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +166,9 @@
     <MESSAGE value="Define MyLinkedList" />
     <MESSAGE value="Define MyNode" />
     <MESSAGE value="Define head and tail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Define head and tail" />
+    <MESSAGE value="Implemented methods of MyLinkedList" />
+    <MESSAGE value="Mylist interface changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mylist interface changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
