@@ -10,4 +10,5 @@ public interface MyList<T> {
         boolean isEmpty();
         void clear();
         Iterator<T> iterator();
+        void sort();
 }
