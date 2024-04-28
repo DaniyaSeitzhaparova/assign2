@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="MyStack changes">
+    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="MyQueue added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MyMinHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
       <updated>1714009089292</updated>
       <workItem from="1714009090355" duration="4319000" />
       <workItem from="1714099125765" duration="3954000" />
-      <workItem from="1714305858201" duration="502000" />
+      <workItem from="1714305858201" duration="1555000" />
     </task>
     <task id="LOCAL-00001" summary="MyList added">
       <option name="closed" value="true" />
@@ -183,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714103648251</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="MyQueue added">
+      <option name="closed" value="true" />
+      <created>1714306390936</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714306390936</updated>
+    </task>
+    <task id="LOCAL-00016" summary="MyQueue added">
+      <option name="closed" value="true" />
+      <created>1714306472069</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714306472069</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +224,8 @@
     <MESSAGE value="Sorting method added to MyLinkedList" />
     <MESSAGE value="Added MyStack" />
     <MESSAGE value="MyStack changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="MyStack changes" />
+    <MESSAGE value="MyQueue added" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyQueue added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

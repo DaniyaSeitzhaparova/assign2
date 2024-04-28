@@ -11,4 +11,6 @@ public interface MyList<T> {
         void clear();
         Iterator<T> iterator();
         void sort();
+
+        void set(int i, T t);
 }
