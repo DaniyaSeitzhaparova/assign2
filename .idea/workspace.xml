@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="Sorting method added to MyLinkedList">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MyStack.java" afterDir="false" />
+    <list default="true" id="a9527092-724f-4c13-a18a-9fbf09ba839f" name="Changes" comment="MyStack changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1714009089292</updated>
       <workItem from="1714009090355" duration="4319000" />
-      <workItem from="1714099125765" duration="2609000" />
+      <workItem from="1714099125765" duration="3954000" />
+      <workItem from="1714305858201" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="MyList added">
       <option name="closed" value="true" />
@@ -166,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714101296735</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added MyStack">
+      <option name="closed" value="true" />
+      <created>1714102623105</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714102623105</updated>
+    </task>
+    <task id="LOCAL-00014" summary="MyStack changes">
+      <option name="closed" value="true" />
+      <created>1714103648251</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714103648251</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +203,9 @@
     <MESSAGE value="Mylist interface changed" />
     <MESSAGE value="Sorting method added to MyArrayList" />
     <MESSAGE value="Sorting method added to MyLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorting method added to MyLinkedList" />
+    <MESSAGE value="Added MyStack" />
+    <MESSAGE value="MyStack changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="MyStack changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
